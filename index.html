@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoBarber</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="side-image">
+          <img
+            src="./assets/images/bg_gobarber.png"
+            id="bg-image"
+            alt="Go Barber Local Imagem"
+          />
+        </div>
+        <div class="content">
+          <div class="wrapper">
+            <div class="content-container">
+              <figure class="logo">
+                <img src="./assets/images/logo.svg" alt="Logo Go Barber" />
+              </figure>
+              <form action="#" id="login-form">
+                <div class="input-form">
+                  <img
+                    class="input-icon"
+                    src="./assets/icons/name.svg"
+                    alt=""
+                  />
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Nome"
+                    required
+                  />
+                </div>
+                <div class="input-form">
+                  <img
+                    class="input-icon"
+                    src="./assets/icons/email.svg"
+                    alt=""
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="E-mail"
+                    required
+                  />
+                </div>
+                <div class="input-form">
+                  <img
+                    class="input-icon"
+                    src="./assets/icons/password.svg"
+                    alt=""
+                  />
+                  <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    placeholder="Senha"
+                    required
+                  />
+                </div>
+                <button id="form-button" type="submit">Cadastrar</button>
+              </form>
+            </div>
+            <div class="bottom-action">
+              <img src="./assets/icons/arrow-left.svg" alt="Icone de voltar" />
+              <span id="back-label">Voltar para o login</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
