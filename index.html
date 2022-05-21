@@ -6,18 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GoBarber</title>
     <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
     <main>
       <div class="container">
-        <div class="side-image">
-          <img
-            src="./assets/images/bg_gobarber.png"
-            id="bg-image"
-            alt="Go Barber Local Imagem"
-          />
-        </div>
         <div class="content">
           <div class="wrapper">
             <div class="content-container">
@@ -25,25 +18,12 @@
                 <img src="./assets/images/logo.svg" alt="Logo Go Barber" />
               </figure>
               <form action="#" id="login-form">
-                <div class="input-form">
-                  <img
-                    class="input-icon"
-                    src="./assets/icons/name.svg"
-                    alt=""
-                  />
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    placeholder="Nome"
-                    required
-                  />
-                </div>
+                <h2 class="form-title">Faça seu login</h2>
                 <div class="input-form">
                   <img
                     class="input-icon"
                     src="./assets/icons/email.svg"
-                    alt=""
+                    alt="Icone de email"
                   />
                   <input
                     type="email"
@@ -57,7 +37,7 @@
                   <img
                     class="input-icon"
                     src="./assets/icons/password.svg"
-                    alt=""
+                    alt="Icone de senha"
                   />
                   <input
                     type="password"
@@ -67,14 +47,30 @@
                     required
                   />
                 </div>
-                <button id="form-button" type="submit">Cadastrar</button>
+                <button id="form-button" type="submit">Entrar</button>
               </form>
+              <button id="btn-forgot-password">
+                <span class="action-label align-center"
+                  >Esqueci minha senha</span
+                >
+              </button>
             </div>
-            <div class="bottom-action">
-              <img src="./assets/icons/arrow-left.svg" alt="Icone de voltar" />
-              <span id="back-label">Voltar para o login</span>
-            </div>
+            <a href="./pages/register.html">
+              <div class="flex-center gap-1">
+                <img src="./assets/icons/leave.svg" alt="Criar conta icone" />
+                <span class="action-label align-center orange-text"
+                  >Criar conta</span
+                >
+              </div>
+            </a>
           </div>
+        </div>
+        <div class="side-image">
+          <img
+            src="./assets/images/bg_gobarber_login.png"
+            id="bg-image"
+            alt="Go Barber Local Imagem"
+          />
         </div>
       </div>
     </main>

@@ -1,6 +1,7 @@
 body {
   background-color: #312e38;
   overflow-y: hidden;
+  margin: 0;
 }
 
 #bg-image {
@@ -35,11 +36,16 @@ body {
 
 #form-button {
   background-color: #ff9000;
+  color: #000;
   border: none;
   padding: 18px 0;
   font-size: 1rem;
   border-radius: 10px;
-  margin-top: 16px;
+  margin: 16px 0;
+}
+
+#form-button:disabled {
+  opacity: 0.5;
 }
 
 #form-button:hover {
@@ -47,7 +53,14 @@ body {
   cursor: pointer;
 }
 
-#back-label {
+#btn-forgot-password {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.action-label {
   font-size: 1rem;
   color: #fff;
   font-family: sans-serif;
@@ -109,4 +122,39 @@ body {
   .bottom-action {
     margin-top: 3rem;
   }
+}
+
+.form-title {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.orange-text {
+  color: #ff9000;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.mg-bottom-1 {
+  margin-bottom: 1rem;
 }

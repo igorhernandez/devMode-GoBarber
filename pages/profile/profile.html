@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoBarber | Perfil</title>
+    <link rel="stylesheet" href="../../styles/main.css" />
+    <link rel="stylesheet" href="./profile.css" />
+  </head>
+  <body>
+    <header>
+      <div id="back-button-header">
+        <img
+          src="../../assets/icons/back-button.svg"
+          alt="Botão voltar icone"
+        />
+      </div>
+    </header>
+    <main>
+      <div class="wrapper">
+        <div id="profile-picture-container">
+          <img
+            id="profile-picture"
+            src="../../assets/images/avatar.png"
+            alt="Foto de perfil"
+          />
+          <div id="change-profile-icon">
+            <img
+              src="../../assets/icons/camera.svg"
+              alt="Icone de camera"
+              height="25px"
+              width="25px"
+            />
+          </div>
+        </div>
+        <div id="profile-content">
+          <h2 id="title">Meu perfil</h2>
+          <form action="#" id="login-form">
+            <div class="input-form">
+              <img
+                class="input-icon"
+                src="../../assets/icons/name.svg"
+                alt="Icone de avatar"
+              />
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Nome"
+                required
+                value="Tiago Luchtenberg"
+              />
+            </div>
+            <div class="input-form mg-bottom-1">
+              <img
+                class="input-icon"
+                src="../../assets/icons/email.svg"
+                alt="Icone de email"
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+                required
+                value="tiagoluchtenberg@gmail.com"
+              />
+            </div>
+            <div class="input-form">
+              <img
+                class="input-icon"
+                src="../../assets/icons/password.svg"
+                alt=""
+              />
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Senha Atual"
+                required
+              />
+            </div>
+
+            <div class="input-form">
+              <img
+                class="input-icon"
+                src="../../assets/icons/password.svg"
+                alt=""
+              />
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Nova Senha"
+                required
+              />
+            </div>
+            <div class="input-form">
+              <img
+                class="input-icon"
+                src="../../assets/icons/password.svg"
+                alt=""
+              />
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Confirmar Senha"
+                required
+              />
+            </div>
+            <button id="form-button" type="submit" disabled>
+              Confirmar Mudanças
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
