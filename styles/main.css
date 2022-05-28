@@ -62,6 +62,8 @@ body {
 
 .action-label {
   font-size: 1rem;
+  font-weight: 500;
+  line-height: 26px;
   color: #fff;
   font-family: sans-serif;
 }
@@ -150,11 +152,67 @@ body {
   gap: 1rem;
 }
 
+.gap-3 {
+  gap: 3rem;
+}
+
 .flex-column {
   display: flex;
   flex-direction: column;
 }
 
+.flex {
+  display: flex;
+}
+
 .mg-bottom-1 {
   margin-bottom: 1rem;
+}
+
+.bd-radius-100 {
+  border-radius: 100%;
+}
+
+.grey-description {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  color: #999591;
+  font-family: sans-serif;
+}
+
+.principal-title {
+  font-size: 2.25rem;
+  color: #f4ede8;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.content-wrapper {
+  width: 1024px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.grey-title {
+  font-size: 1.25rem;
+  line-height: 26px;
+  color: #999591;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.attendance-box {
+  background-color: #3e3b47;
+  border-radius: 10px;
+  padding: 16px 24px;
+  align-items: center;
+  max-width: 640px;
+}
+
+.attendance-name {
+  font-size: 1.5rem;
+  color: #f4ede8;
+  font-family: sans-serif;
+  font-weight: 500;
 }

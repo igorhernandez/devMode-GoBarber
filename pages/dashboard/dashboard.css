@@ -1,0 +1,15 @@
+header {
+  padding: 32px 0;
+  width: 100%;
+  background-color: #28262e;
+}
+
+#menu-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header {
+  width: 100%;
+  margin: 4rem 0;
+}

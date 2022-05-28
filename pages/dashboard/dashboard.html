@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoBarber | Dashboard</title>
+    <link rel="stylesheet" href="../../styles/reset.css" />
+    <link rel="stylesheet" href="../../styles/main.css" />
+    <link rel="stylesheet" href="./dashboard.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="menu-container" class="content-wrapper">
+        <div class="flex-center gap-3">
+          <img
+            width="137.6px"
+            src="../../assets/images/logo.svg"
+            alt="Logo GoBarber"
+          />
+          <a href="#">
+            <span class="action-label orange-text">Barbeiros</span>
+          </a>
+        </div>
+        <div class="flex-center gap-1">
+          <img
+            src="../../assets/images/avatar.png"
+            width="56px"
+            height="56px"
+            alt="Imagem do usuário"
+            class="bd-radius-100"
+          />
+          <div class="flex-column">
+            <span class="grey-description">Bem vindo,</span>
+            <span class="action-label orange-text">Tiago Luchtenberg</span>
+          </div>
+          <img src="../../assets/icons/logout.svg" alt="Icone de sair" />
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="content-wrapper">
+        <div class="main-header flex-column gap-1">
+          <h1 class="principal-title">Horários agendados</h1>
+          <h2 class="action-label orange-text">
+            Hoje | Dia 06 | Segunda-feira
+          </h2>
+        </div>
+        <div id="next-attendance" class="flex-column gap-1">
+          <h3 class="grey-title">Atendendimento a seguir</h3>
+          <div class="attendance-box flex gap-1">
+            <img
+              height="80px"
+              width="80px"
+              class="bd-radius-100"
+              src="../../assets/images/avatar.png"
+              alt="Imagem do cliente"
+            />
+            <span class="attendance-name">Leonardo Minatti</span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

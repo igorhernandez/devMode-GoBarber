@@ -17,10 +17,6 @@ header {
   width: 100%;
 }
 
-#profile-picture {
-  border-radius: 100%;
-}
-
 #change-profile-icon {
   height: 48px;
   width: 48px;
