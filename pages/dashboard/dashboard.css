@@ -1,15 +1,14 @@
-header {
-  padding: 32px 0;
-  width: 100%;
-  background-color: #28262e;
+.next-attendance-line {
+  width: 2px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #ff9000;
 }
 
-#menu-container {
-  display: flex;
-  justify-content: space-between;
+.header-schedule-attendance {
+  margin-bottom: 1.5rem;
 }
 
-.main-header {
-  width: 100%;
-  margin: 4rem 0;
+.attendance {
+  gap: 1.625rem;
 }

@@ -1,6 +1,5 @@
 body {
   background-color: #312e38;
-  overflow-y: hidden;
   margin: 0;
 }
 
@@ -205,14 +204,82 @@ body {
 .attendance-box {
   background-color: #3e3b47;
   border-radius: 10px;
-  padding: 16px 24px;
-  align-items: center;
-  max-width: 640px;
+  padding: 16px 24px 16px 0;
+  box-sizing: border-box;
+  width: 100%;
 }
 
-.attendance-name {
-  font-size: 1.5rem;
+.bold-white {
   color: #f4ede8;
   font-family: sans-serif;
   font-weight: 500;
+}
+
+.next-attendance-name {
+  font-size: 1.5rem;
+}
+
+.attendance-name {
+  font-size: 1.25rem;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.attendance-infos {
+  width: 100%;
+  padding-left: 22px;
+}
+
+.attendance-hour {
+  gap: 0.75rem;
+}
+
+.title-divide-line {
+  background-color: #3e3b47;
+  height: 1px;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.attendances {
+  max-width: 640px;
+}
+
+.white-description {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 22px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.mg-bottom-80 {
+  margin-bottom: 80px;
+}
+
+header {
+  padding: 32px 0;
+  width: 100%;
+  background-color: #28262e;
+}
+
+#menu-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header {
+  width: 100%;
+  margin: 4rem 0;
+}
+
+.grid-2-column {
+  display: grid;
+  grid: auto / 50% 50%;
+}
+
+.sm-5 {
+  gap: 5px;
 }

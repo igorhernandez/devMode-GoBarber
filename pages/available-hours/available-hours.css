@@ -1,0 +1,14 @@
+.available-hours {
+  margin-top: 1rem;
+}
+
+.hour-box {
+  background-color: #3e3b47;
+  height: 26px;
+  width: 59px;
+  border-radius: 4px;
+}
+
+.hour-box .bold-white {
+  font-size: 1rem;
+}
